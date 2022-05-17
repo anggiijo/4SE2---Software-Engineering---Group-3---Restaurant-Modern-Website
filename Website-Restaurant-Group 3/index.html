@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <judul>Restaurant Modern</judul>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/judul-shape.png" width="200" height="100" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#beranda">Beranda</a></li>
+                                <li><a href="#tentang">Tentang</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#galeri">Galeri</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#kontak">Kontak</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="Cari" class="form-input" placeholder="Cari Di Sini...">
+                                <button type="submit">
+                                    <i class="uil uil-cari"></i>
+                                </button>
+                            </form>
+                            <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="beranda">
+                <div class="js-parSemuaax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="assets/images/berry.png" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="assets/images/leaf.png" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp" id="beranda">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-teks">
+                                    <h1 class="h1-judul">
+                                        Selamat Datang 
+                                        <span>Restaurant</span>
+                                        Modern.
+                                    </h1>
+                                    <p>Menyajikan makanan khas modern mulai dari sushi, ayam, dll. Begitu juga untuk sayur sayuran, Yuk mampir ke sini rasanya bikin ketagihan.
+                                        Untuk area dining ada di lantai 2, tempatnya nyaman dan luas. Sangat membantu banget area parkir tsb karena Restaurant Modern kami ini letaknya persis dipinggir jalan. Jadi ga usah pusing mikirin parkiran.</p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Cek Menu kami</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(assets/images/main-b.jpg);">
+                                    </div>
+                                </div>
+                                <div class="banner-img-teks mt-4 m-auto">
+                                    <h5 class="h5-judul">Sushi</h5>
+                                    <p>Semua Varian Sushi Rasanyaaa Perfectooo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="brands-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="brand-judul mb-6">
+                                <h5 class="h6-judul">Dipercaya oleh 6 perusahaan</h5>
+                            </div>
+                            <div class="brands-row">
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 1.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 2.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 3.png" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 4.jpg" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 5.jpg" alt="">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets/images/brands/Perusahaan 6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-sec section" id="tentang">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-judul teks-tengah mb-5">
+                                <p class="sec-sub- mb-3">Tentang kami</p>
+                                <h2 class="h2-judul">Temukan cerita <span>restoran kami</span></h2>
+                                <div class="sec-judul-shape mb-4">
+                                    <img src="assets/images/j-shape.svg" alt="">
+                                </div>
+                                <p>Kesan hangat, modern dan elegan tersirat pada ornamen-ornamen modern kontemporer yang terasa semakin kuat saat memasuki Sailendra Restaurant. Dikenal sebagai salah satu restoran modern dengan menu terlengkap di Jakarta, restoran utama di JM Hotel Jakarta ini menjalani renovasi besar sejak dibuka pada 2022 silam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 m-auto">
+                            <div class="about-video">
+                                <div class="j-shape.svg-video-img" style="background-image: url(assets/images/j-shape.svg);">
+                                </div>
+                                <div class="play-btn-wp">
+                                    <a href="assets/images/video.mp4" data-fancybox="video" class="play-btn">
+                                        <i class="uil uil-play"></i>
+
+                                    </a>
+                                    <span>Tonton Resepnya</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-image: url(assets/images/menu-bg.png);"
+                class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-judul teks-tengah mb-5">
+                                    <p class="sec-sub-judul mb-3">menu kami</p>
+                                    <h2 class="h2-judul">bangun pagi-pagi, <span>makan segar & sehat</span></h2>
+                                    <div class="sec-judul-shape mb-4">
+                                        <img src="assets/images/judul-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab teks-tengah">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".Semua, .Sarapan, .Makan-siang, .Makan-malam">
+                                                <img src="assets/images/menu-1.png" alt="">
+                                                Semua
+                                            </li>
+                                            <li class="filter" data-filter=".Sarapan">
+                                                <img src="assets/images/menu-2.png" alt="">
+                                                Sarapan
+                                            </li>
+                                            <li class="filter" data-filter=".Makan-siang">
+                                                <img src="assets/images/menu-3.png" alt="">
+                                                Makan siang
+                                            </li>
+                                            <li class="filter" data-filter=".Makan-malam">
+                                                <img src="assets/images/menu-4.png" alt="">
+                                                Makan malam
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <!-- list food get from local storage -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-tengah">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src="assets/images/pizza.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-teks">
+                                <h2 class="xxl-judul">Chicken Pepperoni</h2>
+                                <p>Chicken Papperoni yaitu pizza ayam yang sangat pas untuk makanan samping kita dimana pun dan kapan pun.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section pt-0">
+                <div class="container">
+                    <div class="row align-items-tengah">
+                        <div class="col-lg-6 order-lg-1 order-2">
+                            <div class="sec-teks">
+                                <h2 class="xxl-judul">Sushi</h2>
+                                <p>Sushi makanan khas dari jepang yang rasanya dan kematangannya pas, sehingga kita ketagihan.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="sec-img">
+                                <img src="assets/images/sushi.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book-table section bg-light">
+                <div class="book-table-shape">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="book-table-shape book-table-shape2">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-judul teks-tengah mb-5">
+                                    <p class="sec-sub-judul mb-3">Meja Buku</p>
+                                    <h2 class="h2-judul">Meja Pembukaan</h2>
+                                    <div class="sec-judul-shape mb-4">
+                                        <img src="assets/images/judul-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buku-table-info">
+                            <div class="row align-items-tengah">
+                                <div class="col-lg-4">
+                                    <div class="table-judul teks-tengah">
+                                        <h3>Senin sampai Kamis</h3>
+                                        <p>8:00 sampai 23:00</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="cSemua-now teks-tengah">
+                                        <i class="uil uil-phone"></i>
+                                        <a href="tel:+62-81318410109">+62 - 81318410109</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="table-judul teks-tengah">
+                                        <h3>Jumat sampai Minggu</h3>
+                                        <p>08:00 sampai 21:00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="gSemuaery">
+                            <div class="col-lg-10 m-auto">
+                                <div class="book-table-img-slider" id="icon">
+                                    <div class="swiper-wrapper">
+                                        <a href="assets/images/bt1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt1.jpg)"></a>
+                                        <a href="assets/images/bt2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt2.jpg)"></a>
+                                        <a href="assets/images/bt3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt3.jpg)"></a>
+                                        <a href="assets/images/bt4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt4.jpg)"></a>
+                                        <a href="assets/images/bt1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt1.jpg)"></a>
+                                        <a href="assets/images/bt2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt2.jpg)"></a>
+                                        <a href="assets/images/bt3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt3.jpg)"></a>
+                                        <a href="assets/images/bt4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/bt4.jpg)"></a>
+                                    </div>
+
+                                    <div class="swiper-button-wp">
+                                        <div class="swiper-button-prev swiper-button">
+                                            <i class="uil uil-angle-left"></i>
+                                        </div>
+                                        <div class="swiper-button-next swiper-button">
+                                            <i class="uil uil-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="our-team section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-judul teks-tengah mb-5">
+                                    <p class="sec-sub-judul mb-3">Tim kita</p>
+                                    <h2 class="h2-judul">Temui Koki kami</h2>
+                                    <div class="sec-judul-shape mb-4">
+                                        <img src="assets/images/judul-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row team-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box teks-tengah">
+                                        <div style="background-image: url(assets/images/chef/Chef\ 1.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-judul">Prayoga Suherman</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box teks-tengah">
+                                        <div style="background-image: url(assets/images/chef/Chef\ 2.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-judul">Rafael Fransisco
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box teks-tengah">
+                                        <div style="background-image: url(assets/images/chef/chef\ 3.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-judul">Umar Mutaqin</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box teks-tengah">
+                                        <div style="background-image: url(assets/images/chef/chef\ 4.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-judul">Marco Stetcho</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box teks-tengah">
+                                        <div style="background-image: url(assets/images/chef/chef\ 5.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-judul">Michelin Stars</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-wp">
+                                <div class="swiper-button-prev swiper-button">
+                                    <i class="uil uil-angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button">
+                                    <i class="uil uil-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials section bg-light">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-judul teks-tengah mb-5">
+                                    <p class="sec-sub-judul mb-3">Apa yang mereka katakan</p>
+                                    <h2 class="h2-judul">Apa pelanggan kami? <span>katakan tentang kita</span></h2>
+                                    <div class="sec-judul-shape mb-4">
+                                        <img src="assets/images/judul-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="testimonials-img">
+                                    <img src="assets/images/testimonial-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t1.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:85%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-teks">
+                                                <h3 class="h3-judul">
+                                                    Raffi Ahmad
+                                                </h3>
+                                                <p>Rasanyaa enakkkkkk dan pelayanan ramah ramah.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t2.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:80%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-teks">
+                                                <h3 class="h3-judul">
+                                                    Omar 
+                                                <p>Pelayanannya ramah, dan makanan sangat wenakkk poll.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t3.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:89%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-teks">
+                                                <h3 class="h3-judul">
+                                                    Ammar Zoni
+                                                </h3>
+                                                <p>ENAKKK SEKALIII makannannyaaa.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/t4.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:100%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-teks">
+                                                <h3 class="h3-judul">
+                                                    Bambang Pamungkas
+                                                </h3>
+                                                <p>mantappppp dan lezattt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-sec section-repeat-img" style="background-image: url(assets/images/faq-bg.png);">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-judul teks-tengah mb-5">
+                                    <p class="sec-sub-judul mb-3">tanya jawab</p>
+                                    <h2 class="h2-judul">Sering <span>pertanyaan yang diajukan</span></h2>
+                                    <div class="sec-judul-shape mb-4">
+                                        <img src="assets/images/judul-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq-row">
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Jam berapa login?</h4>
+                                <p>saya login kira kira siang tadi.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Apa yang saya dapatkan pengembalian dana saya?</h4>
+                                <p>Jika makanan kami tidak enak kami kembalikan uang anda seratus persen.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Berapa lama waktu yang dibutuhkan untuk makanan tiba?</h4>
+                                <p>makanan tiba kira kira 20 menit - 30 menit sesuai antrian.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Apakah restoran Anda memiliki sayuran dan non-sayuran?</h4>
+                                <p>iya ada, tetapi jika sayuran kami habis maka kami beritahukan sebelum anda membelinya.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Berapa biaya pengiriman makanan?</h4>
+                                <p>tidak mahal cuma RP. 9000.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-judul">Siapa yang memenuhi syarat untuk keanggotaan vip?</h4>
+                                <p>atasan kami dan kami siap melayani supaya anda mendapatkan keanggotaan vip. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div class="bg-pattern bg-light repeat-img"
+                style="background-image: url(assets/images/blog-pattern-bg.png);">
+                <section class="blog-sec section" id="blog">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="sec-judul teks-tengah mb-5">
+                                        <p class="sec-sub-judul mb-3">Our blog</p>
+                                        <h2 class="h2-judul">Publikasi Terbaru</span></h2>
+                                        <div class="sec-judul-shape mb-4">
+                                            <img src="assets/images/judul-shape.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog1.jpg);"></div>
+                                        <div class="blog-teks">
+                                            <p class="blog-date">01.Mei.2022</p>
+                                            <a href="#" class="h4-judul">Minuman Coklat Susu.</a>
+                                            <p>Iya Tersedia.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog2.jpg);"></div>
+                                        <div class="blog-teks">
+                                            <p class="blog-date">04.Mei.2022</p>
+                                            <a href="#" class="h4-judul">Kombosayuran&nasisegar.</a>
+                                            <p>Iya Tersedia.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/blog3.jpg);"></div>
+                                        <div class="blog-teks">
+                                            <p class="blog-date">08.Mei.2022</p>
+                                            <a href="#" class="h4-judul">Burger ayam & nugget.</a>
+                                            <p>Iya Tersedia.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="newsletter-sec section pt-0">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-9 m-auto">
+                                    <div class="newsletter-box teks-tengah back-img white-teks"
+                                        style="background-image: url(assets/images/news.jpg);">
+                                        <div class="red-overlay red-overlay"></div>
+                                        <div class="sec-wp">
+                                            <div class="newsletter-box-teks">
+                                                <h2 class="h2-judul">Berlangganan Restaurant Modern Kami</h2>
+                                                <p>Silahkan Masukan Email.</p>
+                                            </div>
+                                            <form action="#" class="newsletter-form">
+                                                <input type="email" class="form-input"
+                                                    placeholder="Masukkan email Anda disini" required>
+                                                <button type="submit" class="sec-btn primary-btn">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="logo.png" alt="">
+                                            </a>
+                                        </div>
+                                        <p>Di Bawah ini adalah Social Media dari Restaurant Modern kami.
+                                        </p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-github-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-judul">Jam Buka Restaurant Modern</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Senin - Kamis : 8:00-23:00 </li>
+                                                <li><i class="uil uil-clock"></i> Jumat - Minggu : 08:00-21:00 </li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-judul">Links</h3>
+                                            <ul class="column-2">
+                                                <li>
+                                                    <a href="#beranda" class="footer-active-menu">Beranda</a>
+                                                </li>
+                                                <li><a href="#tentang">Tentang</a></li>
+                                                <li><a href="#menu">Menu</a></li>
+                                                <li><a href="#galeri">Galeri</a></li>
+                                                <li><a href="#blog">Blog</a></li>
+                                                <li><a href="#kontak">Kontak</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                            <h3 class="h3-judul">Restaurant Modern</h3>
+                                            <ul>
+                                                <li><a href="#">Syarat & Ketentuan</a></li>
+                                                <li><a href="#">Kebijakan pribadi</a></li>
+                                                <li><a href="#">Kebijakan Cookie</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 teks-tengah">
+                                <div class="copyright-teks">
+                                    <p>Copyright &copy; 2022 <span class="name">Anggi Johanes Pardamean S & Moch Ramdhani Ali Syahbana.</span>Semua Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="assets/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- parSemuaax  -->
+    <script src="assets/js/parSemuaax.min.js"></script>
+
+    <!-- gsap  -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <!-- <script src="assets/js/rellax.min.js"></script> -->
+    <!-- <script src="assets/js/rellax-custom.js"></script> -->
+    <!-- smooth scroll  -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+
+    <!-- <script>
+        $.getJSON("../asset/js/data/restaurantfood.json"), function(data){
+            var items = []
+            $.each(data, function (i,v){
+                items.push()
+            })
+        }
+    </script> -->
+
+</body>
+
+</html>

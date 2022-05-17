@@ -1,0 +1,63 @@
+{
+  "menu": [{
+    "rating":"5.2",
+    "name": "Sayuran Ayam Segar",
+    "kalori": "120",
+    "type": "Non Vegetarian",
+    "Orang": "2",
+    "img": "images/dish/1.png",
+    "price": "58.000",
+    "waktuMakan": "Sarapan"
+    
+  }, {
+    "rating":"4.8",
+    "name": "Ayam Panggang",
+    "kalori": "80",
+    "type": "Non Vegetarian",
+    "Orang": "1",
+    "img": "images/dish/2.png",
+    "price": "125.000",
+    "waktuMakan":"Sarapan"
+
+  }, {
+    "rating":"5.3",
+    "name": "Mie Panner",
+    "kalori": "80",
+    "type": "Vegetarian",
+    "Orang": "2",
+    "img": "images/dish/3.png",
+    "price": "120.000",
+    "waktuMakan":"Makan-siang"
+
+  }, {
+    "rating":"4.5",
+    "name": "Mie Comfort Food",
+    "kalori": "115",
+    "type": "Non Vegetarian",
+    "Orang": "2",
+    "img": "images/dish/4.png",
+    "price": "89.000",
+    "waktuMakan":"Makan-siang"
+
+  }, {
+    "rating":"5.1",
+    "name": "Bread Boiled Egg",
+    "kalori": "120",
+    "type": "Non Vegetarian",
+    "Orang": "2",
+    "img": "images/dish/5.png",
+    "price": "68.000",
+    "waktuMakan":"Makan-malam"
+
+  }, {
+    "rating":"5.6",
+    "name": "Hidangan Kekebalan",
+    "kalori": "115",
+    "type": "Veg",
+    "Orang": "2",
+    "img": "images/dish/6.png",
+    "price": "140.000",
+    "waktuMakan":"Makan-malam"
+
+  }]
+}
